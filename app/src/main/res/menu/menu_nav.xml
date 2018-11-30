@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/Play"
+            android:icon="@android:drawable/sym_action_email"
+            android:title="@string/play"
+            android:checked="true"
+            />
+        <item
+            android:id="@+id/Play_status"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="@string/Play_status"
+            />
+        <item
+            android:id="@+id/Purchase_Packs"
+            android:icon="@android:drawable/ic_menu_send"
+            android:title="@string/Purchase_Packs"
+            />
+        <item
+            android:id="@+id/Open_Packs"
+            android:icon="@android:drawable/ic_menu_delete"
+            android:title="@string/Open_Packs"
+            />
+        <item
+            android:id="@+id/Browse_Collection"
+            android:icon="@android:drawable/ic_menu_delete"
+            android:title="@string/Browse_Collection"
+            />
+
+    </group>
+
+
+</menu>
